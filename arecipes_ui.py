@@ -80,14 +80,18 @@ class UI:
         try:
             url_text = ''
             url_text = self.url.get()
-            if not ('www.bettycrocker' and 'www.geniuskitchen' and 'www.foodnetwork' and 'www.marthastewart') in url_text:
+            print(url_text)
+            if  not ('www.bettycrocker' in url_text or 'www.geniuskitchen' in url_text or 'www.foodnetwork' in url_text or 'www.marthastewart' in url_text) :
+                print("1")
                 raise TypeError
+            
             self.text = self._temp_original(url_text)
             infof = self._make_frame('#ffccff')
             self.second_screen()
             if self.url_msg != None:
                 self.url_msg.destroy()
         except TypeError:
+            print("2")
             self.url_msg = Message(self.root, text='Please enter a valid URL.') 
             self.url_msg.grid(row=3, column=0)
             self.url_msg.config(bg='pink', width = 550, font=('times', 23, 'italic'),  borderwidth = 8, justify=CENTER, relief = RAISED)
