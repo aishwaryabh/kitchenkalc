@@ -11,4 +11,10 @@ When they first enter the app, they will see a page with an input section
 and a button, in which they will input a website from one of the following 
 cooking websites: 
 
+Food Network
+Genius Kitchen
+Martha Stewart
+Betty Crocker
+
+
 AUTHORS: Aishwarya B., Cynthia W., Grace C., Jenny C., Bhavani P.
