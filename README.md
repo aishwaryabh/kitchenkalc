@@ -21,4 +21,5 @@ Betty Crocker
 
 
 AUTHORS: Aishwarya B., Cynthia W., Grace C., Jenny C., Bhavani P.
+
 This project was made for HACK@UCI
