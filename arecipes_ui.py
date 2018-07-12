@@ -1,6 +1,6 @@
 from tkinter import *
 import converter
-import yo
+import kalc
 
 
 class UI:
